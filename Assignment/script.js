@@ -1,8 +1,8 @@
 /////CREATING VARIABLES////
 // Using var
-var firstName = "John";
-var lastName = "Doe";
-var age = 30;
+var firstName = "bhavani";
+var lastName = "shankar";
+var age = 20;
 
 console.log("Using var:");
 console.log("First Name:", firstName);
@@ -22,14 +22,14 @@ const PI = 3.14159;
 
 console.log("\nUsing const:");
 console.log("PI:", PI);
-*/
+
 
 
 /////////////VARIABLE SCOPE/////
 ///global vs local//
 
 // Global variable
-var globalVar = " his is  global variable";
+var globalVar = " global variable";
 
 function outerFunction() {
    
