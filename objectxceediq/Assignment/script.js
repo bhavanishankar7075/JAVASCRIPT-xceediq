@@ -218,8 +218,8 @@ console.log("Type of notDefined:", typeof notDefined);
 
 // Create an object with properties and methods
 let car = {
-    make: "Toyota",
-    model: "HILUX",
+    make: "AUDI",
+    model: "A6",
     year: 2024,
     mileage: 35,
 
@@ -268,34 +268,34 @@ console.log("Updated Car Info after adding mileage:", car.displayInfo());
 
 // Number() conversion
 console.log(Number("123"));  // Outputs: 123
-console.log(Number("abc"));  // Outputs: NaN
-console.log(Number(true));   // Outputs: 1
 console.log(Number(false));  // Outputs: 0
+console.log(Number(true));   // Outputs: 1
 console.log(Number(null));   // Outputs: 0
+console.log(Number("abc"));  // Outputs: NaN
 console.log(Number(undefined));  // Outputs: NaN
 
 // String() conversion
+console.log(String(undefined));  // Outputs: "undefined"
+console.log(String(false));  // Outputs: "false"
 console.log(String(123));  // Outputs: "123"
 console.log(String(true));  // Outputs: "true"
-console.log(String(false));  // Outputs: "false"
 console.log(String(null));  // Outputs: "null"
-console.log(String(undefined));  // Outputs: "undefined"
 
 // Boolean() conversion
 console.log(Boolean(123));  // Outputs: true
+console.log(Boolean(""));  // Outputs: false
+console.log(Boolean(undefined));  // Outputs: false
 console.log(Boolean(0));  // Outputs: false
 console.log(Boolean("abc"));  // Outputs: true
-console.log(Boolean(""));  // Outputs: false
 console.log(Boolean(null));  // Outputs: false
-console.log(Boolean(undefined));  // Outputs: false
 
 
 /////////IMPLICIT COERION///////////
 /////ARITHEMATIC OPERATOR///
 
-let x = "5";
+let x = "4";
 let y = 3;
-let z = x + y; // z will be "53" (string concatenation)
+let z = x + y; // z will be "43" (string concatenation)
 let w = x - y; // w will be 2 (implicit conversion to numbers)
 console.log(z);
 console.log(w);
