@@ -327,21 +327,21 @@ console.log(s1+ ' '+s2);
 
 /////Access characters using indexing.//
 const s3="shekar";
-console.log(s3[0]); // Outputs: k
-console.log(s3[4]); // Outputs: i
+console.log(s3[0]); // Outputs: s
+console.log(s3[4]); // Outputs: a
 //console.log(s3[10]); // Outputs: undefined (index out of range)
 
 //console.log(s3[-1]); // Outputs: undefined (negative index out of range)
 
 /////////Find the length of a string////
 const s4="ramu";
-console.log(s4.length); // Outputs: 5
+console.log(s4.length); // Outputs: 4
 
 
 /////////Create substrings./////
 const s5="rishi";
-console.log(s5.slice(0, 4)); // Outputs: kari
-console.log(s5.slice(4)); // Outputs: shma
+console.log(s5.slice(0, 1)); // Outputs: ri
+console.log(s5.slice(4)); // Outputs: h
 
 ////////////2.Template literals://///
 
@@ -349,7 +349,7 @@ console.log(s5.slice(4)); // Outputs: shma
 const name = "nani";
 const age = 21;
 console.log(`My name is ${name} and I am ${age} years old.`);
-// Outputs: My name is kartik and I am 21 years old.
+// Outputs: My name is nani and I am 21 years old.
 
 ////////Format strings using multi-line strings and interpolation.////
 const firstName = 'bhavani';
@@ -365,8 +365,8 @@ const introduction = `
 
 console.log(introduction);
 // Outputs:
-//   Hello, my name is kartik stylite.
-//   I am a developer at Techvision.
+//   Hello, my name is bhavani shankar.
+//   I am a developer an IBM.
 //   I love working on interesting projects and collaborating with talented people.
 
 
@@ -457,7 +457,7 @@ function add(a, b) {
     return a + b;
     }
     const result = add(50, 10);
-    console.log(result); // Outputs: 15
+    console.log(result); // Outputs: 60
 
 //2. Chaining function calls://
 //Call functions that return values and pass the returned values as arguments to other functions.//
@@ -467,8 +467,8 @@ function add(a, b) {
     function multiply(a, b) {
         return a * b;
         }
-        const result = multiply(add(50, 10), 2);
-        console.log(result); // Outputs: 30
+        const result = multiply(add(10, 10), 2);
+        console.log(result); // Outputs: 200
 
 
         
