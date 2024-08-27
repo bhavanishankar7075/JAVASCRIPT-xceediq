@@ -29,15 +29,15 @@ console.log("PI:", PI);
 ///global vs local//
 
 // Global variable
-var globalVar = "I am a global variable";
+var globalVar = " his is  global variable";
 
 function outerFunction() {
    
-    var outerVar = "I am a variable in the outer function";
+    var outerVar = " the outer function";
 
     function innerFunction() {
         
-        var innerVar = "I am a variable in the inner function";
+        var innerVar = " in the inner function";
 
        
         console.log("Inside innerFunction:");
@@ -67,7 +67,7 @@ console.log("Global variable:", globalVar);
 function scopeDemo() {
     // var example
     if (true) {
-        var varVariable = "I am a var variable";
+        var varVariable = "a var variable";
         console.log("Inside block with var:", varVariable); 
     }
     console.log("Outside block with var:", varVariable);
@@ -259,7 +259,7 @@ console.log("Updated Car Info:", car.displayInfo());
 // Using method to add mileage
 car.addMileage(500);
 console.log("Updated Car Info after adding mileage:", car.displayInfo()); 
-*/
+
 
 
 ///////////////////TYPE CONVERSION AND COERCION///
@@ -315,14 +315,14 @@ console.log(a === b); // false (strict equality, no type conversion)
 /////////1.String manipulation/////
 
 ////CONCATENATE STRING USING + operator////
-const s1="kartik";
-const s2="stylite";
+const s1="bhavani";
+const s2="shankar";
 console.log(s1+ ' '+s2); 
 
 // Outputs: kartik stylite
 
 /////Access characters using indexing.//
-const s3="kartik";
+const s3="shekar";
 console.log(s3[0]); // Outputs: k
 console.log(s3[4]); // Outputs: i
 //console.log(s3[10]); // Outputs: undefined (index out of range)
@@ -330,26 +330,26 @@ console.log(s3[4]); // Outputs: i
 //console.log(s3[-1]); // Outputs: undefined (negative index out of range)
 
 /////////Find the length of a string////
-const s4="bablu";
+const s4="ramu";
 console.log(s4.length); // Outputs: 5
 
 
 /////////Create substrings./////
-const s5="karishma";
+const s5="rishi";
 console.log(s5.slice(0, 4)); // Outputs: kari
 console.log(s5.slice(4)); // Outputs: shma
 
 ////////////2.Template literals://///
 
 ////Use template literals to embed expressions within strings.///
-const name = "kartik";
+const name = "java";
 const age = 21;
 console.log(`My name is ${name} and I am ${age} years old.`);
 // Outputs: My name is kartik and I am 21 years old.
 
 ////////Format strings using multi-line strings and interpolation.////
-const firstName = 'kartik';
-const lastName = 'stylite';
+const firstName = 'bhavani';
+const lastName = 'shankar';
 const occupation = 'developer';
 const company = 'Techvision';
 
