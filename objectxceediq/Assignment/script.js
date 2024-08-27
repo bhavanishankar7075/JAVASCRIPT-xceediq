@@ -342,7 +342,7 @@ console.log(s5.slice(4)); // Outputs: shma
 ////////////2.Template literals://///
 
 ////Use template literals to embed expressions within strings.///
-const name = "java";
+const name = "nani";
 const age = 21;
 console.log(`My name is ${name} and I am ${age} years old.`);
 // Outputs: My name is kartik and I am 21 years old.
@@ -351,7 +351,7 @@ console.log(`My name is ${name} and I am ${age} years old.`);
 const firstName = 'bhavani';
 const lastName = 'shankar';
 const occupation = 'developer';
-const company = 'Techvision';
+const company = 'IBM';
 
 const introduction = `
   Hello, my name is ${firstName} ${lastName}.
@@ -376,7 +376,7 @@ console.log(introduction);
  } else if (score >= 80) {
    console.log("Good score");
  } else {
-   console.log("Need to improve");
+   console.log("more to improve");
  }
  // Outputs: Good score
  // If the score is 85, it will print "Good score" because 85 is
@@ -390,15 +390,15 @@ console.log(introduction);
     case 'A':
         console.log('Excellent');
         break;
-        case 'B':
-            console.log('Good');
-            break;
-            case 'C':
-                console.log('Fair');
-                break;
-                default:
-                    console.log('Invalid grade');
-                    }
+    case 'B':
+        console.log('Good');
+        break;
+    case 'C':
+        console.log('Fair');
+        break;
+    default:
+        console.log('nothing');
+}
                     // Outputs: Good
 
 
@@ -436,7 +436,7 @@ function greet(name) {
 function greet(name, age) {
     console.log(`Hello, ${name}! I am ${age} years old.`);
     }
-    greet('guys', 21); // Outputs: Hello, guys! I am 21 years old.
+    greet('guys', 22); // Outputs: Hello, guys! I am 21 years old.
 
 //2. Default parameters://
 //Set default values for function parameters.Use these default values when arguments are not provided.
@@ -452,7 +452,7 @@ function greet(name = 'world', age = 21) {
 function add(a, b) {
     return a + b;
     }
-    const result = add(5, 10);
+    const result = add(50, 10);
     console.log(result); // Outputs: 15
 
 //2. Chaining function calls://
@@ -463,5 +463,5 @@ function add(a, b) {
     function multiply(a, b) {
         return a * b;
         }
-        const result = multiply(add(5, 10), 2);
+        const result = multiply(add(50, 10), 2);
         console.log(result); // Outputs: 30
