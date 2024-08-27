@@ -1,4 +1,6 @@
 /////CREATING VARIABLES////
+
+
 // Using var
 var firstName = "bhavani";
 var lastName = "shankar";
@@ -72,18 +74,20 @@ function scopeDemo() {
     }
     console.log("Outside block with var:", varVariable);
 
-    // let example
-    if (true) {
-        let letVariable = "I am a let variable";
-        console.log("Inside block with let:", letVariable); 
-    }
-   
-    // const example
-    if (true) {
+
+     // const example
+     if (true) {
         const constVariable = "I am a const variable";
         console.log("Inside block with const:", constVariable); 
     }
     }
+
+
+    // let example
+    if (true) {
+        let letVariable = "I am a let variable";
+        console.log("Inside block with let:", letVariable); 
+    }  
 
 scopeDemo();
 
@@ -385,7 +389,7 @@ console.log(introduction);
  
 ///////2.Switch statements://
 //Create switch statements to compare a value against multiple cases. Execute different code blocks based on matching cases.
- const grade = 'B';
+ const grade = 'A';
  switch (grade) {
     case 'A':
         console.log('Excellent');
@@ -399,7 +403,7 @@ console.log(introduction);
     default:
         console.log('nothing');
 }
-                    // Outputs: Good
+                    
 
 
 
@@ -465,3 +469,6 @@ function add(a, b) {
         }
         const result = multiply(add(50, 10), 2);
         console.log(result); // Outputs: 30
+
+
+        
